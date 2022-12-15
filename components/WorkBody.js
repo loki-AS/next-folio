@@ -23,7 +23,7 @@ const WorkBody = () => {
         >
             <h1 className='uppercase text-md font-poppins tracking-[1px]'>Work</h1>
             <p className='py-7 font-poppins tracking-[1px] leading-8'>This is a showcase of my best work in a variety of fields, from Web Design to Web Development and management</p>
-            <p className='py-5 font-poppins tracking-[1px] leading-8'>The world of Digital Design has grown at an extremely rapid rate over the last 10 years and my aim has been to evolve with it. I'm learning and gaining new skills every day.</p>
+            <p className='py-5 font-poppins tracking-[1px] leading-8'>The world of Digital Design has grown at an extremely rapid rate over the last 10 years and my aim has been to evolve with it. I&apos;m learning and gaining new skills every day.</p>
         </motion.div>
         <div>
             <Link href="/work/music">

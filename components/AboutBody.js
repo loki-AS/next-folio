@@ -42,17 +42,17 @@ const AboutBody = () => {
         transition={{
           duration: 1.5
         }}
-        className='text-3xl font-cormorant tracking-[1px] font-semibold '>I'm Lohith. A designer, maker and problem solver.</motion.h1>
+        className='text-3xl font-cormorant tracking-[1px] font-semibold '>I&apos;m Lohith. A designer, maker and problem solver.</motion.h1>
 
-        <p className='py-3 pt-6 text-md leading-10 text-gray-700 font-poppins'>I'm a front-end web developer with over a years' of experience. I work to create high performance & rich interactive websites that work across all platforms & devices.</p>
+        <p className='py-3 pt-6 text-md leading-10 text-gray-700 font-poppins'>I&apos;m a front-end web developer with over a years of experience. I work to create high performance & rich interactive websites that work across all platforms & devices.</p>
 
-        <p className='py-3 pt-6 text-md leading-10 text-gray-700 font-poppins'>Although I'm very familiar with using frameworks, my websites are primarily hand-coded using HTML5, CSS3, React Js & JavaScript. With a strong emphasis on "Progressive Enhancement", I look for creative ways to push the boundaries of website front-end code without compromising on browser support and performance.</p>
+        <p className='py-3 pt-6 text-md leading-10 text-gray-700 font-poppins'>Although I&apos;m very familiar with using frameworks, my websites are primarily hand-coded using HTML5, CSS3, React Js & JavaScript. With a strong emphasis on &quot;Progressive Enhancement&quot;, I look for creative ways to push the boundaries of website front-end code without compromising on browser support and performance.</p>
         </div>
 
         <div>
           <p className='py-3 pt-6 text-md leading-10 text-gray-700 font-poppins'>One of my favourite quote :</p>
 
-          <h1 className='text-[3rem] font-cormorant tracking-[2px] font-semibold leading-20'>“A dream does not become reality through magic, it takes sweat, determination, and hard work.”</h1>
+          <h1 className='text-[3rem] font-cormorant tracking-[2px] font-semibold leading-20'>&quot;A dream does not become reality through magic, it takes sweat, determination, and hard work.&quot;</h1>
         </div>
 
         <div>
