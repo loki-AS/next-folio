@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 const Hero = () => {
   return (
     <div 
-    className="w-full h-full  grid md:grid-flow-col gap-6 pt-20 px-10"
+    className="w-full h-screen  grid md:grid-flow-col gap-6 pt-20 px-10"
     >
     <motion.div
     initial={{
