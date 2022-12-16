@@ -9,7 +9,8 @@ module.exports = {
       fontFamily:{
         cormorant: ["Cormorant Upright", "serif"],
         poppins: ["Poppins", "sans-serif"],
-        montserrat: ["Montserrat", "sans-serif"]
+        montserrat: ["Montserrat", "sans-serif"],
+        dancing: ["Dancing Script", "cursive"]
       },
       screens: {
         xs: "480px",

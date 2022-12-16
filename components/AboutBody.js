@@ -6,11 +6,24 @@ import Link from 'next/link'
 
 const AboutBody = () => {
   return (
-    <div className='flex flex-col mt-10'>
-      <div>
-      <div className='absolute right-0 sm:px-16 px-6'>
+    <div className='flex flex-col mt-10 px-10'>
+
+      <motion.div 
+      initial={{
+        opacity:0,
+        scale:0.5
+      }}
+      animate={{
+        opacity:1,
+        scale:1
+      }}
+      transition={{
+        duration:2
+      }}
+      className='absolute right-0 sm:px-16 md:px-6 px-0'>
         <Image src={myPic} alt="mypic" height={250} width={250} />
-      </div>
+      </motion.div>
+
       <div className='pt-32'>
         <motion.h1 
             initial={{
@@ -26,23 +39,12 @@ const AboutBody = () => {
           transition={{
               duration: 1.5
           }}
-        className='text-[5rem] uppercase font-cormorant tracking-[2px]'>
+        className='text-[5rem] md:text-[7rem] pt-5 md:pt-0 font-dancing uppercase tracking-[2px]'>
         About
         </motion.h1>
 
         <motion.h1 
-        initial={{
-          opacity:0,
-          scale:0.5
-        }}
-        animate={{
-          opacity:1,
-          scale:1
-        }}
-        transition={{
-          duration: 1.5
-        }}
-        className='text-3xl font-cormorant tracking-[1px] font-semibold '>I&apos;m Lohith. A designer, maker and problem solver.</motion.h1>
+        className='text-3xl py-3 font-cormorant leading-10 tracking-[1px] font-semibold '>I&apos;m Lohith. A designer, maker and problem solver.</motion.h1>
 
         <p className='py-3 pt-6 text-md leading-10 text-gray-700 font-poppins'>I&apos;m a front-end web developer with over a years of experience. I work to create high performance & rich interactive websites that work across all platforms & devices.</p>
 
@@ -56,28 +58,19 @@ const AboutBody = () => {
         </div>
 
         <div>
-          <h1 className='text-3xl uppercase font-cormorant tracking-[2px] py-6'>Skills</h1>
+          <h1 className='text-3xl uppercase font-cormorant tracking-[3px] py-6 pt-10 font-bold underline'>Skills</h1>
           <div
           className='font-poppins text-md tracking-[1px] text-gray-700 leading-10 px-4'>
-            <p>- HTML</p>
-            <p>- CSS</p>
-            <p>- JavaScript</p>
-            <p>- React JS</p>
-            <p>- Next JS</p>
-            <p>- Redux</p>
-            <p>- Node JS</p>
-            <p>- Mongo DB</p>
-            <p>- SQL</p>
-            <p>- Sanity</p>
+            HTML / CSS / JavaScript / React JS / React Native / Next JS / Redux / Node JS / Mongo DB / SQL / Sanity / Firebase / UI/UX Design
           </div>
         </div>
 
-        <div className='flex flex-col md:flex-row justify-between items-center py-6'>
-          <button className='bg-[#1a1818] text-[#eee7e1] text-xl px-4 py-2 tracking-[2px] font-poppins rounded-full w-[10rem] mb-5 md:mb-0 hover:scale-110 '>My CV</button>
-          <button className='bg-[#1a1818] text-[#eee7e1] text-xl px-4 py-2 tracking-[2px] font-poppins rounded-full mb-5 md:mb-0 hover:scale-110 '><Link href="/contact">Contact Me</Link></button>
+        <div className='flex flex-col md:flex-row justify-between items-center py-10'>
+          <button className='bg-[#1a1818] text-[#eee7e1] text-xl px-4 py-3 tracking-[2px] font-poppins rounded-full w-[10rem] mb-5 md:mb-0 hover:scale-110 '>My CV</button>
+          <button className='bg-[#1a1818] text-[#eee7e1] text-xl px-4 py-3 tracking-[2px] font-poppins rounded-full mb-5 md:mb-0 hover:scale-110 '><Link href="/contact">Contact Me</Link></button>
         </div>
+
       </div>
-    </div>
   )
 }
 

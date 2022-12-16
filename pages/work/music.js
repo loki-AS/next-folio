@@ -41,7 +41,7 @@ const Music = () => {
         }}
         >
         Music Player
-        </motion.h1>
+        </motion.h1>  
 
         </motion.div>
 
@@ -69,10 +69,10 @@ const Music = () => {
             <p className='text-md font-poppins py-4 text-gray-700 tracking-[2px]'>Web Development</p>
 
             <h1 className='uppercase text-lg font-poppins tracking-[2px] underline font-medium text-gray-700 pb-4'>Github</h1>
-            <a className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://github.com/loki-AS/js-music-player">https://github.com/loki-AS/js-music-player</a>
+            <a target="_blank" className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://github.com/loki-AS/js-music-player">https://github.com/loki-AS/js-music-player</a>
 
             <h1 className='uppercase text-lg font-poppins tracking-[2px] underline font-medium text-gray-700 py-4'>URL</h1>
-            <a className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://loki-as.github.io/js-music-player/">https://loki-as.github.io/js-music-player/</a>
+            <a target="_blank" className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://loki-as.github.io/js-music-player/">https://loki-as.github.io/js-music-player/</a>
         </div>
 
         <div className='relative pb-6'>

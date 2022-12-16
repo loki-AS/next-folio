@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 const Hero = () => {
   return (
     <div 
-    className='flex md:flex-row flex-col mt-10 h-screen justify-center items-center'
+    className="w-full h-full  grid md:grid-flow-col gap-6 pt-20 px-10"
     >
     <motion.div
     initial={{
@@ -21,10 +21,11 @@ const Hero = () => {
     transition={{
         duration: 1.5,
     }}
+
+    className="flex flex-col md:justify-end md:text-start pb-0 md:pb-32"
     >
-      <h1 className='uppercase tracking-[3px] font-poppins py-3 font-semibold'>Lohith kumar</h1>
-      <p className='tracking-[1px] text-sm font-poppins py-3 opacity-75 '>Strategic Product Designer and Webflow Developer</p>
-      <p className='text-sm font-poppins tracking-[1px] py-3 opacity-75'>Currently working as a Senior Product Designer at Detail Technologies</p>
+      <h1 className='uppercase tracking-[3px] font-poppins py-3 font-semibold hover:underline'>Lohith kumar</h1>
+      <p className='tracking-[1px] text-sm font-poppins py-3 opacity-75 '>Strategic Product Designer, Webflow Developer and Application Developer</p>
     </motion.div>
     <motion.div 
     initial={{
@@ -41,9 +42,9 @@ const Hero = () => {
         duration: 1.5
     }}
     className='text-[4.5rem] md:text-[7rem] py-0 uppercase ml-0 md:ml-10'>
-      <Link href="/work"> <h1 className='font-cormorant strike-through'>Work</h1> </Link>
-      <Link href="/about"> <h1 className='font-cormorant strike-through'>About</h1> </Link>
-      <Link href="/contact"> <h1 className='font-cormorant strike-through'>Contact</h1> </Link>
+      <Link href="/work"> <h1 className='font-dancing hover:scale-105 hover:animate-pulse'>Work</h1> </Link>
+      <Link href="/about"> <h1 className='font-dancing hover:scale-105 hover:animate-pulse'>About</h1> </Link>
+      <Link href="/contact"> <h1 className='font-dancing hover:scale-105 hover:animate-pulse'>Contact</h1> </Link>
     </motion.div>
   </div>
   )

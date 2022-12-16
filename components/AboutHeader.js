@@ -3,6 +3,9 @@ import { motion } from "framer-motion"
 import Link from 'next/link'
 
 const AboutHeader = () => {
+
+    const year = new Date();
+
   return (
     <div className='flex justify-between items-center py-3 pt-10'>
     <motion.div 
@@ -44,7 +47,7 @@ const AboutHeader = () => {
             duration: 1.5,
         }}
     >
-    <h1 className='tracking-[3px] text-xs font-poppins'>©/2022</h1>
+    <h1 className='tracking-[3px] text-xs font-poppins'>©/ {year.getFullYear()}</h1>
     </motion.div>
   </div>
   )
