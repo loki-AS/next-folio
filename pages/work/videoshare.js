@@ -88,10 +88,10 @@ const Videoshare = () => {
             <p className='text-md font-poppins py-4 text-gray-700 tracking-[2px]'>Web Development</p>
 
             <h1 className='uppercase text-lg font-poppins tracking-[2px] underline font-medium text-gray-700 pb-4'>Github</h1>
-            <a target="_blank" className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://github.com/loki-AS/video-sharing">https://github.com/loki-AS/video-sharing</a>
+            <a className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://github.com/loki-AS/video-sharing">https://github.com/loki-AS/video-sharing</a>
 
             <h1 className='uppercase text-lg font-poppins tracking-[2px] underline font-medium text-gray-700 py-4'>URL</h1>
-            <a target="_blank" className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://videoshare-two.vercel.app/profile/117819993330051373825">https://videoshare-two.vercel.app</a>
+            <a className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://videoshare-two.vercel.app/profile/117819993330051373825">https://videoshare-two.vercel.app</a>
         </div>
 
         <div className='relative pb-6'>

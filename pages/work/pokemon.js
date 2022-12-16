@@ -88,10 +88,10 @@ const Pokemon = () => {
             <p className='text-md font-poppins py-4 text-gray-700 tracking-[2px]'>Web Development</p>
 
             <h1 className='uppercase text-lg font-poppins tracking-[2px] underline font-medium text-gray-700 pb-4'>Github</h1>
-            <a target="_blank" className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://github.com/loki-AS/pokemon_api">https://github.com/loki-AS/pokemon_api</a>
+            <a className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://github.com/loki-AS/pokemon_api">https://github.com/loki-AS/pokemon_api</a>
 
             <h1 className='uppercase text-lg font-poppins tracking-[2px] underline font-medium text-gray-700 py-4'>URL</h1>
-            <a target="_blank" className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://pikachu-api.netlify.app/">https://pikachu-api.netlify.app/</a>
+            <a className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://pikachu-api.netlify.app/">https://pikachu-api.netlify.app/</a>
         </div>
 
         <div className='relative pb-6'>

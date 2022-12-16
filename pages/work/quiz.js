@@ -86,7 +86,7 @@ const Quiz = () => {
             <p className='text-md font-poppins py-4 text-gray-700 tracking-[2px]'>Android Development</p>
 
             <h1 className='uppercase text-lg font-poppins tracking-[2px] underline font-medium text-gray-700 pb-4'>Github</h1>
-            <a target="_blank" className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://github.com/loki-AS/Quiz_native">https://github.com/loki-AS/Quiz_native</a>
+            <a className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://github.com/loki-AS/Quiz_native">https://github.com/loki-AS/Quiz_native</a>
 
         </div>
 

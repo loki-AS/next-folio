@@ -25,7 +25,7 @@ const Header = () => {
     >
     <h1 className='px-3 tracking-[3px] text-xs cursor-pointer font-poppins'><span className='strike-through'>LI</span></h1>
     <h1 className='px-4 tracking-[3px] text-xs cursor-pointer font-poppins'><span className='strike-through'>TW</span></h1>
-    <h1 className='px-4 tracking-[3px] text-xs cursor-pointer font-poppins'><a href="https://github.com/loki-AS" target="_blank" className='strike-through'>GH</a></h1>
+    <h1 className='px-4 tracking-[3px] text-xs cursor-pointer font-poppins'><a href="https://github.com/loki-AS"  className='strike-through'>GH</a></h1>
     <div className='line w-28 bg-black rounded-sm text-sm' />
     </motion.div>
 
