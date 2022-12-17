@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 const WorkBody = () => {
   return (
-    <div className='w-full h-full  grid md:grid-flow-col gap-6 px-10'>
+    <div className='w-full  grid md:grid-flow-col gap-6 px-10 xxl:pt-24'>
         <motion.div 
         className='pt-5 md:mt-28'
         initial={{
@@ -39,10 +39,11 @@ const WorkBody = () => {
         }}
         transition={{
           duration: 1.5
-        }}        
+        }}       
+        className="" 
         >
             <Link href="/work/music">
-            <h1 className='text-[2rem] md:text-[4rem] py-3 uppercase font-dancing tracking-[1px] hover:scale-105 hover:animate-pulse'>
+            <h1 className='text-[2rem] md:text-[4rem] py-3 uppercase font-dancing tracking-[1px] hover:scale-105 animate-pulse hover:animate-pulse'>
             Music Player
             </h1>
             </Link>
