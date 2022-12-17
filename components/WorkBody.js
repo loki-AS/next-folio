@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 const WorkBody = () => {
   return (
-    <div className='w-full  grid md:grid-flow-col gap-6 px-10 xxl:pt-24'>
+    <div className='w-full  grid md:grid-flow-col gap-6 px-10 xl:pt-24'>
         <motion.div 
         className='pt-5 md:mt-28'
         initial={{

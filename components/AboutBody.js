@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const AboutBody = () => {
   return (
-    <div className='flex flex-col mt-10 px-10 xxl:pt-24'>
+    <div className='flex flex-col mt-10 px-10 xl:pt-24'>
 
       <motion.div 
       initial={{
