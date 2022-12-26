@@ -54,6 +54,12 @@ const WorkBody = () => {
             </h1>
             </Link>
 
+            <Link href="/work/pocket">
+            <h1 className='text-[2rem] py-3 md:text-[4rem] uppercase font-dancing tracking-[1px] hover:scale-105 hover:animate-pulse'>
+            Pocket Chat
+            </h1>
+            </Link>            
+
             <Link href="/work/news">
             <h1 className='text-[2rem] md:text-[4rem] hover:scale-105 hover:animate-pulse py-3 uppercase font-dancing tracking-[1px]'>
             News App

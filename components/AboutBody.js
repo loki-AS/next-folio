@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { myPic } from "../public"
+import { myPic, profile } from "../public"
 import { motion } from "framer-motion"
 import Link from 'next/link'
 
@@ -20,11 +20,11 @@ const AboutBody = () => {
       transition={{
         duration:2
       }}
-      className='absolute right-0 sm:px-16 md:px-6 px-0'>
-        <Image src={myPic} alt="mypic" height={250} width={250} />
+      className='absolute right-0 sm:px-16 px-6  flex flex-wrap'>
+        <Image src={profile} alt="mypic" height={250} width={250} className="rounded-md" />
       </motion.div>
 
-      <div className='pt-32'>
+      <div className='pt-32 mt-[11rem] lg:mt-0'>
         <motion.h1 
             initial={{
               y:500,
@@ -44,7 +44,7 @@ const AboutBody = () => {
         </motion.h1>
 
         <motion.h1 
-        className='text-3xl py-3 font-cormorant leading-10 tracking-[1px] font-semibold '>I&apos;m Lohith. A designer, maker and problem solver.</motion.h1>
+        className='text-3xl z-50 py-3 font-cormorant leading-10 tracking-[1px] font-semibold '>I&apos;m Lohith. A designer, maker and problem solver.</motion.h1>
 
         <p className='py-3 pt-6 text-md leading-10 text-gray-700 font-poppins'>I&apos;m a front-end web developer with over a years of experience. I work to create high performance & rich interactive websites that work across all platforms & devices.</p>
 
@@ -66,7 +66,7 @@ const AboutBody = () => {
         </div>
 
         <div className='flex flex-col md:flex-row justify-between items-center py-10'>
-          <button className='bg-[#1a1818] text-[#eee7e1] text-xl px-4 py-3 tracking-[2px] font-poppins rounded-full w-[10rem] mb-5 md:mb-0 hover:scale-110 '>My CV</button>
+          <button className='bg-[#1a1818] text-[#eee7e1] text-xl px-4 py-3 tracking-[2px] font-poppins rounded-full w-[10rem] mb-5 md:mb-0 hover:scale-110 '><a href='https://drive.google.com/file/d/166LYexhDYmDt6Im9I9rSE1qFsLfFun3e/view' download>My CV</a></button>
           <button className='bg-[#1a1818] text-[#eee7e1] text-xl px-4 py-3 tracking-[2px] font-poppins rounded-full mb-5 md:mb-0 hover:scale-110 '><Link href="/contact">Contact Me</Link></button>
         </div>
 
