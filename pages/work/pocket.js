@@ -2,7 +2,7 @@ import React from 'react'
 import WorkHeader from "../../components/WorkHeader"
 import { motion } from "framer-motion"
 import Image from 'next/image'
-import { cook, pocketChat } from '../../public'
+import { cook, myChat, pocketChat } from '../../public'
 
 const Pocket = () => {
   return (
@@ -40,7 +40,7 @@ const Pocket = () => {
             duration: 1.5
         }}
         >
-        pocket chat
+        chat app
         </motion.h1>
 
         </motion.div>
@@ -79,7 +79,7 @@ const Pocket = () => {
                 duration: 1.5
             }}        
             className='px-5 text-2xl font-poppins text-gray-700 tracking-[1px] leading-10'>
-            This web application is built using the technologies such as Next JS, Sanity and Tailwind CSS.
+            This web application is built using the technologies such as React JS, Node JS and Tailwind CSS.
             </motion.h1>
         </div>
 
@@ -88,14 +88,14 @@ const Pocket = () => {
             <p className='text-md font-poppins py-4 text-gray-700 tracking-[2px]'>Web Development</p>
 
             <h1 className='uppercase text-lg font-poppins tracking-[2px] underline font-medium text-gray-700 pb-4'>Github</h1>
-            <a className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://github.com/loki-AS/pocketChat">https://github.com/loki-AS/pocketChat</a>
+            <a className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://github.com/loki-AS/my-chat">https://github.com/loki-AS/my-chat</a>
 
             <h1 className='uppercase text-lg font-poppins tracking-[2px] underline font-medium text-gray-700 py-4'>URL</h1>
-            <a className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://pocket-chat.vercel.app/">https://pocket-chat.vercel.app/</a>
+            <a className='text-md font-poppins py-4 text-gray-700 tracking-[2px] hover:underline' href="https://my-chatzz.netlify.app/chat">https://my-chatzz.netlify.app/chat</a>
         </div>
 
         <div className='relative pb-6'>
-            <Image src={pocketChat} alt="cook" className='rounded-xl'  />
+            <Image src={myChat} alt="chat" className='rounded-xl'  />
         </div>
     </div>
   )

@@ -40,7 +40,7 @@ const Contact = () => {
         >
           <p className='text-sm md:text-md font-poppins tracking-[2px] leading-7 py-3'>I can help design and build you next website.Let me know what you need?</p>
           <p className='text-sm md:text-md font-poppins tracking-[2px] leading-7 py-3'>Email: <a href="mailto:lohithkumar.rajgopal@gmail.com" className='underline hover:no-underline strike-throughtwo text-md md:text-sm'>lohithkumar.rajgopal@gmail.com</a></p>
-          <p className='text-sm md:text-md font-poppins tracking-[2px] leading-7'>On the internet: <a className='underline hover:no-underline strike-throughtwo'>LinkedIn</a>/ <a className='underline hover:no-underline strike-throughtwo'>Dribble</a>/ <a href="https://github.com/loki-AS" className='underline hover:no-underline strike-throughtwo'>Github</a></p>
+          <p className='text-sm md:text-md font-poppins tracking-[2px] leading-7'>On the internet: <a href="https://www.linkedin.com/in/lohith-kumar-rajgopal-0360b0253/" className='underline hover:no-underline strike-throughtwo'>LinkedIn</a>/ <a className='underline cursor-pointer hover:no-underline strike-throughtwo'>Dribble</a>/ <a href="https://github.com/loki-AS" className='underline hover:no-underline strike-throughtwo'>Github</a></p>
         </motion.div>
       </div>
     </div>
