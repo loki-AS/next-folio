@@ -24,7 +24,7 @@ const Hero = () => {
 
     className="flex flex-col md:justify-center md:text-start"
     >
-      <h1 className='uppercase tracking-[3px] font-poppins py-3 font-semibold hover:underline'>Hi, I'm Lohith kumar</h1>
+      <h1 className='uppercase tracking-[3px] font-poppins py-3 font-semibold hover:underline'>Hi, I&apos;m Lohith kumar</h1>
       <p className='tracking-[1px] text-sm font-poppins py-3 opacity-75 leading-8 '>Strategic Product Designer, Webflow Developer, frontend Developer and Application Developer</p>
     </motion.div>
     <motion.div 
