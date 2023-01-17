@@ -6,7 +6,7 @@ import pokemon from "./pokemon.png"
 import videoshare from "./videoshare.png"
 import pocketChat from "./pocketChat.png"
 import profile from "./profile.jpg"
-import myChat from "./my-Chat.png"
+import myChat from "./myChat.png"
 
 export {
     myPic,
