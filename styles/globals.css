@@ -52,3 +52,34 @@
         left:0;
     }
 }
+
+.splash::before{
+    content: '';
+    position: absolute;
+    left: 120%;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent 0%, #1a1818 5%, #1a1818 100%);
+    animation: animate 5s linear forwards;
+}
+
+@keyframes animate{
+    0%{
+        left: 100%
+    }100%{
+        left: -20%;
+    }
+}
+
+.animatebg{
+    animation: animi 1s linear forwards;
+}
+
+@keyframes animi {
+    0%{
+        background-color: #1a1818;
+    }
+    100%{
+        background-color: #eee7e1;
+    }
+}

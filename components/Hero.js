@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 const Hero = () => {
   return (
     <div 
-    className="w-full h-screen grid md:grid-flow-col gap-6 pt-20 px-10"
+    className="w-full h-screen scrollbar grid md:grid-flow-col gap-6 pt-20 px-10"
     >
     <motion.div
     initial={{
@@ -42,7 +42,7 @@ const Hero = () => {
         duration: 1.5
     }}
     className='text-[4.5rem] md:text-[8rem] py-0 uppercase ml-0 md:ml-10 flex flex-col md:justify-center md:text-start'>
-      <Link href="/work"> <h1 className='font-dancing hover:scale-105 hover:animate-pulse animate-pulse'>Work</h1> </Link>
+      <Link href="/work"> <h1 className='font-dancing hover:animate-pulse hover:scale-105 '>Work</h1> </Link>
       <Link href="/about"> <h1 className='font-dancing hover:scale-105 hover:animate-pulse'>About</h1> </Link>
       <Link href="/contact"> <h1 className='font-dancing hover:scale-105 hover:animate-pulse'>Contact</h1> </Link>
     </motion.div>

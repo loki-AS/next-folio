@@ -66,7 +66,7 @@ const AboutBody = () => {
         </div>
 
         <div className='flex flex-col md:flex-row justify-between items-center py-10'>
-          <button className='bg-[#1a1818] text-[#eee7e1] text-xl px-4 py-3 tracking-[2px] font-poppins rounded-full w-[10rem] mb-5 md:mb-0 hover:scale-110 '><a href='https://drive.google.com/file/d/166LYexhDYmDt6Im9I9rSE1qFsLfFun3e/view' download>My CV</a></button>
+          <button className='bg-[#1a1818] text-[#eee7e1] text-xl px-4 py-3 tracking-[2px] font-poppins rounded-full w-[10rem] mb-5 md:mb-0 hover:scale-110 '><a href='https://drive.google.com/file/d/1KaUe1w_c56gJPi5ClU2sU6b3v3L_4DcW/view' download>My CV</a></button>
           <button className='bg-[#1a1818] text-[#eee7e1] text-xl px-4 py-3 tracking-[2px] font-poppins rounded-full mb-5 md:mb-0 hover:scale-110 '><Link href="/contact">Contact Me</Link></button>
         </div>
 
